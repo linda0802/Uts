@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Pribadi - [linda suhendar]</title>
+    <link rel="stylesheet" href="style1.css">
+    <style>
+        header {
+            background-color: #2c3e50; /* Warna biru gelap */
+            color: #ecf0f1; /* Warna teks putih keabu-abuan */
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1><div linda suhendar ></div> | Pengembang Web</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#profil">Profil</a></li>
+            <li><a href="#keahlian">Keahlian</a></li>
+            <li><a href="#portofolio">Portofolio</a></li>
+            <li><a href="#kontak" style="border: 1px solid white; padding: 5px 10px;">Kontak Saya</a></li>
+        </ul>
+    </nav>
+
+    <div class="main-container">
+
+        <main id="profil" class="main-content">
+            <h2>👋 Halo, Saya [linda suhendar]</h2>
+            <p> saya adalah mahasiswi di salah satu sekolah tinggi di bogor indonesia yaitu stikom el rahma dengan passion di bidang informatika-administrasi</p>
+            <p>saat ini sedang mendalami/belajar teknologi dan administrasi </p>
+           
+            
+            <button class="cta-button">Lihat Portofolio</button>
+        </main>
+
+        <aside class="sidebar">
+            <h3>📌 Keahlian Utama</h3>
+            <ul>
+                <li>HTML5</li>
+                <li>css</li>
+                <li>JavaScript</li>
+            </ul>
+            <h3>📌 Hobby</h3>
+            <ul>
+                <li>coding</li>
+                <li>membaca</li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer>
+        <p>Kontak: lindasuhendar08@gmail.com | [linda suhendar]. Hak Cipta Dilindungi.</p>
+    </footer>
+
+</body>
+</html>
